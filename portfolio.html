@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - [Eric Hatter]</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        /* Navigation */
+        nav {
+            background: #555;
+            color: #fff;
+            padding: 0.5rem 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav ul li {
+            font-weight: bold;
+        }
+        nav ul li a {
+            color: #fff;
+        }
+
+        /* Sections */
+        section {
+            padding: 2rem 0;
+        }
+        section h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .intro {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Assignments */
+        .assignments {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .assignment-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .assignment-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .assignment-card p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eric Hatter's Portfolio</h1>
+        <p>Showcasing my Ican projects</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="assignments.html">Assignments</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="intro">Hello! Im Eric and this is my website to showcase my Ican projects! I have been in Ican for 5 years and this Portfolio will help me showcase my projects from this year. Because of Ican I have found my passion, mechanics! This program mixed with my love for cars has shown me that in the future I want to see myself in a garage fixing up busted beamers. Although it has been long at some points in time, Ican has helped me get jobs and meet people who I hope to stay with for a long time.</p>
+        </section>
+
+        <section id="assignments">
+            <h2>Assignments</h2>
+            <div class="assignments">
+                <div class="assignment-card">
+                    <h3>Project 1: Inventor assembly</h3>
+                    <p>A project showing my skill in 3d modeling.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="assignment-card">
+                    <h3>Project 2: Making songs</h3>
+                    <p>A project showing my skills in the music district.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="assignment-card">
+                    <h3>Project 3: Guessing game</h3>
+                    <p>A project showing coding ability.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p class="intro">Feel free to reach out to me for collaborations, questions, or feedback!</p>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html> 
+
+
